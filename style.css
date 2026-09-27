@@ -1,0 +1,25 @@
+li:first-child{
+    color: blueviolet;
+}
+li:last-child{
+    color: brown;
+}
+li:nth-child(2n){
+    color: aquamarine;
+}
+.heading:hover{
+    border-radius: 100px;
+}
+ h1:hover{
+    color: coral;
+    border: 2px solid greenyellow;
+    background-color: pink;
+    color: white;
+
+ }
+ h1::before{
+    content:"Biprodip "
+ }
+ h1::after{
+    content: "2";
+ }

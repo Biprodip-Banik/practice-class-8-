@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 400px;00
+            border: 2px solid blue; 
+            background-color: beige;
+        }
+        .box{
+            height: 200px;
+            width: 400px;
+            border: 2px solid blue; 
+            background-color: cadetblue;
+            transition: transform 5s ease-in-out, translate 3s;
+        }
+           
+        .box:hover{
+             transform: rotate(60deg) scale(0.50);
+             translate: 100px 30px;
+        } 
+  .grid-container{
+    margin: 100px 0 100px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+  }
+  .grid-container h1{
+    border:  2px solid blue;
+    margin: 10px;
+  }
+    
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card-grid div{
+    border: 2px solid black;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px gray;
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h5 class="box
+       ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, reprehenderit!</h5>
+    </div>
+    <div class="grid-container">
+        <div>
+        <h1>Nayeem</h1>
+    </div>
+    <div>
+        <h1>Tahia</h1>
+    </div>
+    <div>
+        <h1>Mahia</h1>
+    </div>
+    <div>
+        <h1>Mahia</h1>
+    </div>
+    <div>
+        <h1>Mahia</h1>
+    </div>
+    </div> 
+    <div class="card-grid">
+        <div>
+            <img src="swim/boy.svg" alt="">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, blanditiis! Doloribus odio, cumque illum aperiam soluta delectus fugit consequuntur? Commodi hic dignissimos eaque animi sequi quia tempore praesentium amet illum.</P>
+        </div>
+        <div>
+            <img src="swim/ring.svg" alt="">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, blanditiis! Doloribus odio, cumque illum aperiam soluta delectus fugit consequuntur? Commodi hic dignissimos eaque animi sequi quia tempore praesentium amet illum.</P>
+        </div>
+        <div>
+            <img src="swim/water.svg" alt="">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, blanditiis! Doloribus odio, cumque illum aperiam soluta delectus fugit consequuntur? Commodi hic dignissimos eaque animi sequi quia tempore praesentium amet illum.</P>
+        </div>
+    </div>
+</body>
+</html>
